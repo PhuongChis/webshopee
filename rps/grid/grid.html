@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./grid.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+       
+        body {
+            margin: 0;
+            background-color: rgb(159, 228, 168);
+        }
+        h1 {
+            margin: 0;
+        }
+
+        .my-column {
+            background-color: green;
+            height: 260px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<!-- 
+    column: .col
+    prefix class:
+        - c - mobile
+        - m - tablet
+        - l - pc
+ -->
+<body>
+    
+    <div class="grid wide container">
+        <dv class="row">
+            <div class="col l-6 l-o-3 m-8 m-o-2 c-12">
+                <div class="my-column">
+                    <h1>column 1</h1>
+                </div>
+            </div>
+        </dv>
+    </div>
+
+</body>
+</html>

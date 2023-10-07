@@ -1,0 +1,13 @@
+/* mobile: width < 740 px  */
+@media only screen and (max-width: 46.1875em) {
+    /* Styles */
+    
+  }
+
+/* tablet: width >= 740 px and width < 1024 px*/
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+  /* Styles */
+
+}
+  
+  /* pc: width >= 1024 px */  /* dùng mặc định khi viết */
